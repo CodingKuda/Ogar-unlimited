@@ -257,7 +257,7 @@ this.newStage = 2;
           this.setlang(str)
           return;
       } catch (e) {
-        console.log("[OgarUl] That language does not exist!" + e);
+        console.log("[OgarUl] That language does not exist! (src/locals/" + str + ".js does not exsist)");
         return;
       }
     }
